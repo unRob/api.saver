@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D42D2F241CAA659F003B723B /* MainViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D457EE431CAA2265000CC292 /* MainViewController.xib */; };
+		D42D2F251CAA6B32003B723B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49CEA0C1C8A54D20022EBA7 /* Info.plist */; };
 		D457EE441CAA2265000CC292 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457EE421CAA2265000CC292 /* MainViewController.swift */; };
 		D457EE451CAA2265000CC292 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457EE421CAA2265000CC292 /* MainViewController.swift */; };
 		D457EE461CAA2265000CC292 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D457EE431CAA2265000CC292 /* MainViewController.xib */; };
@@ -72,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D49CE9F41C8A54360022EBA7 /* APIScreenSaver */,
-				D49CEA041C8A54D20022EBA7 /* APISS-dev */,
+				D49CEA041C8A54D20022EBA7 /* Debug */,
 				D49CE9F31C8A54360022EBA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +102,7 @@
 			path = APIScreenSaver;
 			sourceTree = "<group>";
 		};
-		D49CEA041C8A54D20022EBA7 /* APISS-dev */ = {
+		D49CEA041C8A54D20022EBA7 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
 				D4ABC2721C8E86AB00517A47 /* AppKit.framework */,
@@ -111,7 +112,8 @@
 				D49CEA091C8A54D20022EBA7 /* MainMenu.xib */,
 				D49CEA0C1C8A54D20022EBA7 /* Info.plist */,
 			);
-			path = "APISS-dev";
+			name = Debug;
+			path = DebugApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +223,7 @@
 				D49CEA081C8A54D20022EBA7 /* Assets.xcassets in Resources */,
 				D457EE471CAA2265000CC292 /* MainViewController.xib in Resources */,
 				D4ABC27A1C8EA29800517A47 /* MainMenu.xib in Resources */,
+				D42D2F251CAA6B32003B723B /* Info.plist in Resources */,
 				D4ABC2791C8E9A5C00517A47 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "APISS-dev/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DebugApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				OTHER_SWIFT_FLAGS = "-D PREFERENCES";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.rob.APISS-dev";
@@ -396,7 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "APISS-dev/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DebugApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.rob.APISS-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
