@@ -3,19 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D49CE9F61C8A54360022EBA7 /* APIScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = D49CE9F51C8A54360022EBA7 /* APIScreenSaverView.h */; };
-		D49CE9F81C8A54360022EBA7 /* APIScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D49CE9F71C8A54360022EBA7 /* APIScreenSaverView.m */; };
+		D42D2F241CAA659F003B723B /* MainViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D457EE431CAA2265000CC292 /* MainViewController.xib */; };
+		D457EE441CAA2265000CC292 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457EE421CAA2265000CC292 /* MainViewController.swift */; };
+		D457EE451CAA2265000CC292 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457EE421CAA2265000CC292 /* MainViewController.swift */; };
+		D457EE461CAA2265000CC292 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D457EE431CAA2265000CC292 /* MainViewController.xib */; };
+		D457EE471CAA2265000CC292 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D457EE431CAA2265000CC292 /* MainViewController.xib */; };
+		D49CEA061C8A54D20022EBA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49CEA051C8A54D20022EBA7 /* AppDelegate.swift */; };
+		D49CEA081C8A54D20022EBA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49CEA071C8A54D20022EBA7 /* Assets.xcassets */; };
+		D49CEA111C8A55510022EBA7 /* ImageStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49CEA101C8A55510022EBA7 /* ImageStreamView.swift */; };
+		D49CEA121C8A55510022EBA7 /* ImageStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49CEA101C8A55510022EBA7 /* ImageStreamView.swift */; };
+		D4ABC2711C8E86A400517A47 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC2701C8E86A400517A47 /* ScreenSaver.framework */; };
+		D4ABC2731C8E86AB00517A47 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC2721C8E86AB00517A47 /* AppKit.framework */; };
+		D4ABC2781C8E96A500517A47 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ABC2761C8E920900517A47 /* SettingsWindowController.swift */; };
+		D4ABC2791C8E9A5C00517A47 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4ABC2741C8E89A300517A47 /* Preferences.xib */; };
+		D4ABC27A1C8EA29800517A47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49CEA091C8A54D20022EBA7 /* MainMenu.xib */; };
+		D4ABC27B1C8EA2AB00517A47 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABC2701C8E86A400517A47 /* ScreenSaver.framework */; };
+		D4D372A01C8F67F700CB6EA8 /* SSMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3729F1C8F67F700CB6EA8 /* SSMedia.swift */; };
+		D4D372A11C8F67FF00CB6EA8 /* SSMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3729F1C8F67F700CB6EA8 /* SSMedia.swift */; };
+		D4D372A31C8F741D00CB6EA8 /* MediaBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D372A21C8F741D00CB6EA8 /* MediaBucket.swift */; };
+		D4D372A41C8F741D00CB6EA8 /* MediaBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D372A21C8F741D00CB6EA8 /* MediaBucket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D457EE421CAA2265000CC292 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D457EE431CAA2265000CC292 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		D49CE9F21C8A54360022EBA7 /* APIScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		D49CE9F51C8A54360022EBA7 /* APIScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIScreenSaverView.h; sourceTree = "<group>"; };
-		D49CE9F71C8A54360022EBA7 /* APIScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIScreenSaverView.m; sourceTree = "<group>"; };
 		D49CE9F91C8A54360022EBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49CEA031C8A54D20022EBA7 /* APISS-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APISS-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49CEA051C8A54D20022EBA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D49CEA071C8A54D20022EBA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D49CEA0A1C8A54D20022EBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D49CEA0C1C8A54D20022EBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49CEA101C8A55510022EBA7 /* ImageStreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStreamView.swift; sourceTree = "<group>"; };
+		D4ABC2701C8E86A400517A47 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		D4ABC2721C8E86AB00517A47 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D4ABC2741C8E89A300517A47 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		D4ABC2761C8E920900517A47 /* SettingsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		D4D3729F1C8F67F700CB6EA8 /* SSMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSMedia.swift; sourceTree = "<group>"; };
+		D4D372A21C8F741D00CB6EA8 /* MediaBucket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaBucket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +52,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4ABC2731C8E86AB00517A47 /* AppKit.framework in Frameworks */,
+				D4ABC2711C8E86A400517A47 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49CEA001C8A54D20022EBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ABC27B1C8EA2AB00517A47 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				D49CE9F41C8A54360022EBA7 /* APIScreenSaver */,
+				D49CEA041C8A54D20022EBA7 /* APISS-dev */,
 				D49CE9F31C8A54360022EBA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D49CE9F21C8A54360022EBA7 /* APIScreenSaver.saver */,
+				D49CEA031C8A54D20022EBA7 /* APISS-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,11 +89,29 @@
 		D49CE9F41C8A54360022EBA7 /* APIScreenSaver */ = {
 			isa = PBXGroup;
 			children = (
-				D49CE9F51C8A54360022EBA7 /* APIScreenSaverView.h */,
-				D49CE9F71C8A54360022EBA7 /* APIScreenSaverView.m */,
 				D49CE9F91C8A54360022EBA7 /* Info.plist */,
+				D49CEA101C8A55510022EBA7 /* ImageStreamView.swift */,
+				D457EE421CAA2265000CC292 /* MainViewController.swift */,
+				D457EE431CAA2265000CC292 /* MainViewController.xib */,
+				D4D3729F1C8F67F700CB6EA8 /* SSMedia.swift */,
+				D4D372A21C8F741D00CB6EA8 /* MediaBucket.swift */,
+				D4ABC2761C8E920900517A47 /* SettingsWindowController.swift */,
+				D4ABC2741C8E89A300517A47 /* Preferences.xib */,
 			);
 			path = APIScreenSaver;
+			sourceTree = "<group>";
+		};
+		D49CEA041C8A54D20022EBA7 /* APISS-dev */ = {
+			isa = PBXGroup;
+			children = (
+				D4ABC2721C8E86AB00517A47 /* AppKit.framework */,
+				D4ABC2701C8E86A400517A47 /* ScreenSaver.framework */,
+				D49CEA051C8A54D20022EBA7 /* AppDelegate.swift */,
+				D49CEA071C8A54D20022EBA7 /* Assets.xcassets */,
+				D49CEA091C8A54D20022EBA7 /* MainMenu.xib */,
+				D49CEA0C1C8A54D20022EBA7 /* Info.plist */,
+			);
+			path = "APISS-dev";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,7 +121,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D49CE9F61C8A54360022EBA7 /* APIScreenSaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,26 +145,54 @@
 			productReference = D49CE9F21C8A54360022EBA7 /* APIScreenSaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
+		D49CEA021C8A54D20022EBA7 /* APISS-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49CEA0D1C8A54D20022EBA7 /* Build configuration list for PBXNativeTarget "APISS-dev" */;
+			buildPhases = (
+				D49CE9FF1C8A54D20022EBA7 /* Sources */,
+				D49CEA001C8A54D20022EBA7 /* Frameworks */,
+				D49CEA011C8A54D20022EBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APISS-dev";
+			productName = "APISS-dev";
+			productReference = D49CEA031C8A54D20022EBA7 /* APISS-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D49CE9E91C8A54360022EBA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Roberto Hidalgo";
 				TargetAttributes = {
 					D49CE9F11C8A54360022EBA7 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					D49CEA021C8A54D20022EBA7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R7JNMTP626;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = D49CE9EC1C8A54360022EBA7 /* Build configuration list for PBXProject "APIScreenSaver" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D49CE9E81C8A54360022EBA7;
 			productRefGroup = D49CE9F31C8A54360022EBA7 /* Products */;
@@ -114,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				D49CE9F11C8A54360022EBA7 /* APIScreenSaver */,
+				D49CEA021C8A54D20022EBA7 /* APISS-dev */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +210,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D457EE461CAA2265000CC292 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49CEA011C8A54D20022EBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49CEA081C8A54D20022EBA7 /* Assets.xcassets in Resources */,
+				D457EE471CAA2265000CC292 /* MainViewController.xib in Resources */,
+				D4ABC27A1C8EA29800517A47 /* MainMenu.xib in Resources */,
+				D4ABC2791C8E9A5C00517A47 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,11 +232,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D49CE9F81C8A54360022EBA7 /* APIScreenSaverView.m in Sources */,
+				D42D2F241CAA659F003B723B /* MainViewController.xib in Sources */,
+				D4D372A31C8F741D00CB6EA8 /* MediaBucket.swift in Sources */,
+				D49CEA111C8A55510022EBA7 /* ImageStreamView.swift in Sources */,
+				D4D372A01C8F67F700CB6EA8 /* SSMedia.swift in Sources */,
+				D457EE441CAA2265000CC292 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49CE9FF1C8A54D20022EBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D457EE451CAA2265000CC292 /* MainViewController.swift in Sources */,
+				D49CEA121C8A55510022EBA7 /* ImageStreamView.swift in Sources */,
+				D4ABC2781C8E96A500517A47 /* SettingsWindowController.swift in Sources */,
+				D4D372A41C8F741D00CB6EA8 /* MediaBucket.swift in Sources */,
+				D4D372A11C8F67FF00CB6EA8 /* SSMedia.swift in Sources */,
+				D49CEA061C8A54D20022EBA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D49CEA091C8A54D20022EBA7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49CEA0A1C8A54D20022EBA7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D49CE9FA1C8A54360022EBA7 /* Debug */ = {
@@ -222,11 +349,15 @@
 		D49CE9FD1C8A54360022EBA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = APIScreenSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.rob.APIScreenSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -234,12 +365,41 @@
 		D49CE9FE1C8A54360022EBA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = APIScreenSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.rob.APIScreenSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		D49CEA0E1C8A54D20022EBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "APISS-dev/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-D PREFERENCES";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.rob.APISS-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D49CEA0F1C8A54D20022EBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "APISS-dev/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.rob.APISS-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -262,6 +422,16 @@
 				D49CE9FE1C8A54360022EBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49CEA0D1C8A54D20022EBA7 /* Build configuration list for PBXNativeTarget "APISS-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49CEA0E1C8A54D20022EBA7 /* Debug */,
+				D49CEA0F1C8A54D20022EBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

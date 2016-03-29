@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainViewController" customModule="APISS_dev" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="A0W-fy-gbE" id="1Qn-og-Ca0"/>
+                <outlet property="location" destination="nrj-9T-OPn" id="4vJ-VN-JVr"/>
+                <outlet property="time" destination="sb2-qi-tFo" id="D6l-hW-iMq"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="year" destination="P2P-lU-CdJ" id="Yvx-x3-1ik"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="900" height="744"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0W-fy-gbE">
+                    <rect key="frame" x="0.0" y="0.0" width="900" height="744"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="pvD-z6-gh1"/>
+                </imageView>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nrj-9T-OPn">
+                    <rect key="frame" x="0.0" y="60" width="196" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="3LX-aO-ySr"/>
+                    </constraints>
+                    <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" alignment="left" title="Algún lugar, en un lado" drawsBackground="YES" usesSingleLineMode="YES" id="ryh-QG-jE8">
+                        <font key="font" metaFont="systemThin" size="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.17999999999999999" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="P2P-lU-CdJ">
+                    <rect key="frame" x="0.0" y="40" width="34" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="ap6-TR-cuf"/>
+                    </constraints>
+                    <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" alignment="left" title="2016" drawsBackground="YES" usesSingleLineMode="YES" id="crQ-hc-4EK">
+                        <font key="font" metaFont="systemLight" size="13"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.17999999999999999" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sb2-qi-tFo">
+                    <rect key="frame" x="799" y="38" width="101" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="cUH-Q4-7ju"/>
+                    </constraints>
+                    <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" alignment="right" title="16:20 " drawsBackground="YES" usesSingleLineMode="YES" id="zfZ-AI-PPE">
+                        <font key="font" metaFont="systemThin" size="37"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.17999999999999999" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="nrj-9T-OPn" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="4Xd-kg-NTP"/>
+                <constraint firstItem="P2P-lU-CdJ" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="4gK-su-MG0"/>
+                <constraint firstAttribute="bottom" secondItem="sb2-qi-tFo" secondAttribute="bottom" constant="38" id="FLg-dx-bPK"/>
+                <constraint firstAttribute="trailing" secondItem="sb2-qi-tFo" secondAttribute="trailing" id="Gsr-kF-R9A"/>
+                <constraint firstItem="A0W-fy-gbE" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="Gx5-Dh-X2Y"/>
+                <constraint firstItem="A0W-fy-gbE" firstAttribute="height" secondItem="Hz6-mo-xeY" secondAttribute="height" id="HfQ-uW-rNw"/>
+                <constraint firstItem="A0W-fy-gbE" firstAttribute="width" secondItem="Hz6-mo-xeY" secondAttribute="width" id="QrI-4Q-YOu"/>
+                <constraint firstAttribute="bottom" secondItem="P2P-lU-CdJ" secondAttribute="bottom" constant="40" id="R5b-Py-hel"/>
+                <constraint firstItem="A0W-fy-gbE" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="tRq-I1-1Xx"/>
+                <constraint firstAttribute="bottom" secondItem="nrj-9T-OPn" secondAttribute="bottom" constant="60" id="viN-gr-Hpd"/>
+            </constraints>
+            <point key="canvasLocation" x="1203" y="697"/>
+        </customView>
+    </objects>
+</document>
