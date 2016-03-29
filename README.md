@@ -1,6 +1,6 @@
 # API.saver
 
-WIP que eventualmente integraré con [mi api](/unRob/api.rob.mx). Por ahora, lee mis fotos favoritas (desde `~/Pictures/best of/`) y de cada una toma `State/Province`, `SubLocation` y `Date Created` de la información embebida en IPTC para mostrar los titulitos.
+WIP que eventualmente integraré con [mi api](https://github.com/unRob/api.rob.mx). Por ahora, lee mis fotos favoritas (desde `~/Pictures/best of/`) y de cada una toma `State/Province`, `SubLocation` y `Date Created` de la información embebida en IPTC para mostrar los titulitos.
 
 O lo que es lo mismo:
 
