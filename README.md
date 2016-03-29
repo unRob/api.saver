@@ -5,7 +5,7 @@ WIP que eventualmente integraré con [mi api](/unRob/api.rob.mx). Por ahora, lee
 O lo que es lo mismo:
 
 ![HOW IPTC](https://github.com/unRob/api.saver/blob/master/screenshots/1.jpg)
-![MUCH WIP](https://github.com/unRob/api.saver/blob/master/screenshots/1.jpg)
+![MUCH WIP](https://github.com/unRob/api.saver/blob/master/screenshots/2.jpg)
 
 ## Coming up:
 
