@@ -58,7 +58,7 @@ class ImageStreamView: ScreenSaverView {
     private func imagesAtPath() -> Array<SSMedia> {
         let fileManager = NSFileManager.defaultManager()
         
-        let enopts = NSDirectoryEnumerationOptions()
+        let enopts = NSDirectoryEnumerationOptions.SkipsHiddenFiles
         let enumerator: NSDirectoryEnumerator! = fileManager.enumeratorAtURL(prefs.URLForKey("path")!, includingPropertiesForKeys: nil, options: enopts) { (url, err) -> Bool in
             Swift.print(url)
             Swift.print(err)

@@ -17,13 +17,13 @@ public struct MediaBucket {
         self.items = items
         shuffle()
     }
-    
+
     private mutating func shuffle() {
         var candidates = GKRandomSource.sharedRandom().arrayByShufflingObjectsInArray(items) as! [SSMedia]
         while candidates.first === items.last {
             candidates = GKRandomSource.sharedRandom().arrayByShufflingObjectsInArray(items) as! [SSMedia]
         }
-        
+
         items = candidates
     }
 
@@ -33,11 +33,11 @@ public struct MediaBucket {
             return nil
         }
         
-        if (total == index-1) {
+        if (index >= total) {
             shuffle()
             index = 0
         }
-        
+
         let current = items[index]
         index += 1
         return current
